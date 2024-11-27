@@ -59,10 +59,6 @@
 
     @include mobile {
       flex-wrap: wrap;
-      gap: 2rem;
-    }
-
-    @include small-mobile {
       justify-content: flex-start;
       gap: 2rem 8rem;
     }

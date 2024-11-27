@@ -3,9 +3,7 @@
   --burger-height: 2rem;
   --burger-line-height: 0.2rem;
 
-  position: fixed;
-  top: 2.5rem;
-  right: 2.5rem;
+  position: relative;
   border: none;
   color: var(--light-color);
   width: var(--burger-width);

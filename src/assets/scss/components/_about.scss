@@ -52,7 +52,7 @@
       left: -9rem;
 
       @include mobile {
-        left: -3rem;
+        left: -3.8rem;
       }
 
       @include small-mobile {
@@ -65,7 +65,7 @@
       transform: rotateY(-180deg);
 
       @include mobile {
-        right: -3rem;
+        right: -3.8rem;
       }
 
       @include small-mobile {

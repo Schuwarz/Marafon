@@ -1,6 +1,5 @@
 const btn = document.querySelector('[data-burger="btn"]')
 const menu = document.querySelector('[data-burger="menu"]')
-const linksParent = document.querySelector('.header__menu')
 const body = document.body
 
 const burgerOpen = () => {
@@ -15,7 +14,7 @@ const burgerClose = () => {
   body.classList.remove('body--fixed')
 }
 
-linksParent.addEventListener('click', event => {
+menu.addEventListener('click', event => {
   if (event.target && event.target.tagName === 'A') {
     burgerClose()
   }
